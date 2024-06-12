@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_icon_selection"
+        android:enabled="true"
+        android:title="Home" />
+    <item
+        android:id="@+id/myRequestFragment"
+        android:icon="@drawable/my_request_selection"
+        android:enabled="true"
+        android:title="Chat" />
+    <item
+        android:id="@+id/notificationFragment"
+        android:icon="@drawable/notification_icon_selection"
+        android:enabled="true"
+        android:title="Profile" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/profile_icon_selection"
+        android:enabled="true"
+        android:title="Chat" />
+</menu>

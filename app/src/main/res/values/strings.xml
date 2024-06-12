@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Time Keeper</string>
+    <string name="time_keeper">Time Keeper</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_underline"><u>Sign in</u></string>
+    <string name="hi_welcome_back_you_ve_been_missed">Hi! Welcome back, you\'ve been missed</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="or_sign_in_with">Or Sign in with</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="sign_up_without_underline">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_up_sub_heading">Fill your information below or register \nwith your social account.</string>
+    <string name="name">Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="agree_with">Agree with</string>
+    <string name="terms_and_condition"><u>Terms &#38; Condition</u></string>
+    <string name="good_morning">Good morning,</string>
+    <string name="city_place_holder">New York, USA</string>
+    <string name="my_logs">My logs</string>
+    <string name="view_all">View All</string>
+    <string name="most_used_by_you">Most used by you</string>
+    <string name="all_jobs">All Jobs</string>
+    <string name="write_note">Write note</string>
+    <string name="lorum_ipsum">Lorem Ipsum is simply dummy text of the printing typesetting industry.</string>
+</resources>

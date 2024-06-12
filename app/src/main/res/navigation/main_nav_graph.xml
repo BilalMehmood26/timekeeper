@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.usaclean.timekeeper.ui.main.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_selectJobFragment"
+            app:destination="@id/selectJobFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+        <action
+            android:id="@+id/action_homeFragment2_to_editShiftFragment"
+            app:destination="@id/editShiftFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/from_right"
+            app:popEnterAnim="@anim/to_left" />
+        <action
+            android:id="@+id/action_homeFragment2_to_shiftDetailsFragment"
+            app:destination="@id/shiftDetailsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/myRequestFragment2"
+        android:name="com.usaclean.timekeeper.ui.main.myRequest.MyRequestFragment"
+        android:label="fragment_my_request"
+        tools:layout="@layout/fragment_my_request" >
+        <action
+            android:id="@+id/action_myRequestFragment2_to_addRequestFragment"
+            app:destination="@id/addRequestFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment2"
+        android:name="com.usaclean.timekeeper.ui.main.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/profileFragment2"
+        android:name="com.usaclean.timekeeper.ui.main.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/selectJobFragment"
+        android:name="com.usaclean.timekeeper.ui.main.selectJob.SelectJobFragment"
+        android:label="fragment_select_job"
+        tools:layout="@layout/fragment_select_job" >
+        <action
+            android:id="@+id/action_selectJobFragment_to_timeClockFragment"
+            app:destination="@id/timeClockFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeClockFragment"
+        android:name="com.usaclean.timekeeper.ui.main.timeClock.TimeClockFragment"
+        android:label="fragment_time_clock"
+        tools:layout="@layout/fragment_time_clock" >
+        <action
+            android:id="@+id/action_timeClockFragment_to_startTimeFragment"
+            app:destination="@id/startTimeFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/startTimeFragment"
+        android:name="com.usaclean.timekeeper.ui.main.startTime.StartTimeFragment"
+        android:label="fragment_start_time"
+        tools:layout="@layout/fragment_start_time" >
+        <action
+            android:id="@+id/action_startTimeFragment_to_shiftDetailsFragment"
+            app:destination="@id/shiftDetailsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/shiftDetailsFragment"
+        android:name="com.usaclean.timekeeper.ui.main.shiftDetails.ShiftDetailsFragment"
+        android:label="fragment_shift_details"
+        tools:layout="@layout/fragment_shift_details" >
+        <action
+            android:id="@+id/action_shiftDetailsFragment_to_editShiftFragment"
+            app:destination="@id/editShiftFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/editShiftFragment"
+        android:name="com.usaclean.timekeeper.ui.main.editShift.EditShiftFragment"
+        android:label="fragment_edit_shift"
+        tools:layout="@layout/fragment_edit_shift" >
+        <action
+            android:id="@+id/action_editShiftFragment_to_startTimeFragment2"
+            app:destination="@id/startTimeFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_right"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/addRequestFragment"
+        android:name="com.usaclean.timekeeper.ui.main.requstLeave.AddRequestFragment"
+        android:label="fragment_add_request"
+        tools:layout="@layout/fragment_add_request" />
+</navigation>
